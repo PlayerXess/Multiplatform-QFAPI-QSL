@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "org/quiltmc/qsl/base/mixin/BootstrapAccessor": {
+      "setOutputStreams": "method_12852()V"
+    },
+    "org/quiltmc/qsl/base/mixin/MinecraftServerMixin": {
+      "tick": "Lnet/minecraft/server/MinecraftServer;method_3748(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "org/quiltmc/qsl/base/mixin/RegistriesMixin": {
+      "Lnet/minecraft/registry/Registries;freeze()V": "Lnet/minecraft/class_7923;freeze()V",
+      "bootstrap": "Lnet/minecraft/class_7923;method_47476()V"
+    },
+    "org/quiltmc/qsl/base/mixin/client/MinecraftClientMixin": {
+      "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V",
+      "Lnet/minecraft/client/option/GameOptions;<init>(Lnet/minecraft/client/MinecraftClient;Ljava/io/File;)V": "Lnet/minecraft/class_315;<init>(Lnet/minecraft/class_310;Ljava/io/File;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/quiltmc/qsl/base/mixin/BootstrapAccessor": {
+        "setOutputStreams": "method_12852()V"
+      },
+      "org/quiltmc/qsl/base/mixin/MinecraftServerMixin": {
+        "tick": "Lnet/minecraft/server/MinecraftServer;method_3748(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "org/quiltmc/qsl/base/mixin/RegistriesMixin": {
+        "Lnet/minecraft/registry/Registries;freeze()V": "Lnet/minecraft/class_7923;freeze()V",
+        "bootstrap": "Lnet/minecraft/class_7923;method_47476()V"
+      },
+      "org/quiltmc/qsl/base/mixin/client/MinecraftClientMixin": {
+        "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V",
+        "Lnet/minecraft/client/option/GameOptions;<init>(Lnet/minecraft/client/MinecraftClient;Ljava/io/File;)V": "Lnet/minecraft/class_315;<init>(Lnet/minecraft/class_310;Ljava/io/File;)V"
+      }
+    }
+  }
+}

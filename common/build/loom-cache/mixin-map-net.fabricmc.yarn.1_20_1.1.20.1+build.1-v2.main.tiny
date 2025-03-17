@@ -1,0 +1,2 @@
+v1	named	intermediary
+METHOD	org/quiltmc/qsl/base/mixin/MinecraftServerMixin	(Z)V	stop	method_3747
