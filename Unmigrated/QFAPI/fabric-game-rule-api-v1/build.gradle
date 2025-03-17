@@ -1,0 +1,12 @@
+version = getSubprojectVersion(project)
+upstream_version = getSubprojectUpstreamVersion(project)
+
+loom {
+	accessWidenerPath = file("src/main/resources/quilted_fabric_game_rule_api_v1.accesswidener")
+}
+
+testDependencies(project, [
+	':fabric-api-base',
+	':fabric-lifecycle-events-v1',
+	':fabric-resource-loader-v0'
+])

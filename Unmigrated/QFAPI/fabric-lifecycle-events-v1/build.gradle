@@ -1,0 +1,14 @@
+version = getSubprojectVersion(project)
+upstream_version = getSubprojectUpstreamVersion(project)
+
+loom {
+	accessWidenerPath = file("src/main/resources/quilted_fabric_lifecycle_events_v1.accesswidener")
+}
+
+moduleDependencies(project, ['fabric-api-base'])
+
+dependencies {
+	modApi(getQslModule('core', 'lifecycle_events'))
+	modApi(getQslModule('core', 'resource_loader'))
+	modApi(getQslModule('entity', 'entity_events'))
+}

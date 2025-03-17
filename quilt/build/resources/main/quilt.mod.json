@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "net.playerxess.mpqsl",
+    "id": "mpqsl",
+    "version": "1.0.0",
+    "metadata": {
+      "name": "Multiplatform-QFAPI/QSL",
+      "description": "A Modified Verson Of QFAPI And QSL For Use On All Modloaders.",
+      "contributors": {
+        "Me!": "Author"
+      },
+      "icon": "assets/mpqsl/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "net.playerxess.mpqsl.quilt.MPQSLQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.1"
+      },
+      {
+        "id": "architectury",
+        "version": ">=9.2.14"
+      }
+    ]
+  },
+  "mixin": [
+    "mpqsl.mixins.json"
+  ]
+}

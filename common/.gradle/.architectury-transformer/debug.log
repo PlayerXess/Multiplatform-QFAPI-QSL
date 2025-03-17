@@ -1,0 +1,20 @@
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] Transforming from /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/common/build/devlibs/mpqsl-common-1.0.0-dev.jar to /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/common/build/libs/mpqsl-common-1.0.0-transformProductionQuilt.jar
+[Architectury Transformer DEBUG] ============================
+[Architectury Transformer DEBUG] 
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/common/build/devlibs/mpqsl-common-1.0.0-dev.jar to /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/common/build/libs/mpqsl-common-1.0.0-transformProductionQuilt.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapMixinVariables@32494bec
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@12babeb0
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@6717631e
+[Architectury Transformer DEBUG]  - AddRefmapName(enabled=() -> kotlin.Boolean)
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@11d88588
+[Architectury Transformer DEBUG] Transforming from /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/common/build/devlibs/mpqsl-common-1.0.0-dev.jar to /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/common/build/libs/mpqsl-common-1.0.0-transformProductionQuilt.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing net/playerxess/mpqsl/MPQSL with maxs=true frames=true
+[Architectury Transformer DEBUG] Checking whether /mpqsl.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Found mixin config(s): /mpqsl.mixins.json
+[Architectury Transformer DEBUG] Injecting mpqsl-common-common-refmap.json to /mpqsl.mixins.json
+[Architectury Transformer DEBUG] Closed File Systems for /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/common/build/libs/mpqsl-common-1.0.0-transformProductionQuilt.jar
+[Architectury Transformer] Transformed jar with 5 transformer(s) in 16.66 ms
+[Architectury Transformer DEBUG] Closed File Systems for /home/PlayerXess/Desktop/Programming/Minecraft/Multiplatform-QFAPI-QSL/fabric-like/build/libs/mpqsl-fabric-like-1.0.0.jar

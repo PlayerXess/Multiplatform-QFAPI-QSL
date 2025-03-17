@@ -1,0 +1,4 @@
+version = getSubprojectVersion(project)
+upstream_version = getSubprojectUpstreamVersion(project)
+
+testDependencies(project, [':fabric-gametest-api-v1'])

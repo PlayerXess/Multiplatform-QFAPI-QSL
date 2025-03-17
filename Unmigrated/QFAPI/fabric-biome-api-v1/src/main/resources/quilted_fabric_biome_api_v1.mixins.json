@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.biome",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BiomeModificationContextImplMixin",
+    "BiomeSelectionContextImplMixin",
+    "EffectsContextImplMixin",
+    "GenerationSettingsContextImplMixin",
+    "SpawnSettingsContextImplMixin",
+    "WeatherContextImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

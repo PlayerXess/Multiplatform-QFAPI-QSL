@@ -1,0 +1,18 @@
+version = getSubprojectVersion(project)
+upstream_version = getSubprojectUpstreamVersion(project)
+
+loom {
+	accessWidenerPath = file("src/main/resources/quilted_fabric_content_registries_v0.accesswidener")
+}
+
+dependencies {
+	modApi(getQslModule('block', 'block_content_registry'))
+	modApi(getQslModule('item', 'item_content_registry'))
+	modApi(getQslModule('core', 'registry'))
+}
+
+moduleDependencies(project, [
+	'fabric-api-base',
+	'fabric-lifecycle-events-v1',
+	'fabric-resource-loader-v0'
+])

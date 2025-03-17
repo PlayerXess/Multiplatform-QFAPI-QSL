@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "net.playerxess.mpqsl",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+  ],
+  "mixins": [
+    "QFAPI/fabric-command-api/mixin/command/EntitySelectorReaderMixin",
+
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/client/ClientChunkManagerMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/client/ClientPlayNetworkHandlerMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/client/WorldChunkMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/server/WorldChunkMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/DataPackContentsMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/LivingEntityMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/PlayerManagerMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/ThreadedAnvilChunkStorageMixin",
+    "QFAPI/fabric-lifecycle-events/mixin/event/lifecycle/WorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

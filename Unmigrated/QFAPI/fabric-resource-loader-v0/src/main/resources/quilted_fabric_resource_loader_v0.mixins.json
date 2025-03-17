@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.resource.loader",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "KeyedResourceReloadListenerMixin",
+    "ModResourcePackProviderMixin",
+    "NamespaceResourceManagerMixin",
+    "ResourceMixin",
+    "ResourcePackProfileMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

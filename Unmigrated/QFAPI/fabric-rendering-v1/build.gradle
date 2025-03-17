@@ -1,0 +1,13 @@
+version = getSubprojectVersion(project)
+upstream_version = getSubprojectUpstreamVersion(project)
+
+dependencies {
+	modApi(getQslModule('gui', 'tooltip'))
+	modApi(getQslModule('rendering', 'entity_rendering'))
+}
+
+moduleDependencies(project, ['fabric-api-base'])
+
+testDependencies(project, [
+	':fabric-object-builder-api-v1'
+])

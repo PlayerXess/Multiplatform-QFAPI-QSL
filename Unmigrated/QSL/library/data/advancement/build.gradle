@@ -1,0 +1,17 @@
+plugins {
+	id("qsl.module")
+}
+
+qslModule {
+	name = "Quilt Advancement API"
+	moduleName = "advancement"
+	id = "quilt_advancement"
+	description = "Provides APIs for working with advancements."
+	moduleDependencies {
+		core {
+			api("qsl_base")
+		}
+	}
+	accessWidener()
+	noMixins()
+}

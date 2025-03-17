@@ -1,0 +1,16 @@
+version = getSubprojectVersion(project)
+upstream_version = getSubprojectUpstreamVersion(project)
+
+dependencies {
+	modApi(getQslModule('core', 'resource_loader'))
+}
+
+loom {
+	accessWidenerPath = file("src/main/resources/quilted_fabric_resource_loader_v0.accesswidener")
+}
+
+testDependencies(project, [
+	':fabric-lifecycle-events-v1',
+	':fabric-api-base',
+	':fabric-resource-loader-v0'
+])
